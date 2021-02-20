@@ -1,0 +1,14 @@
+div.commandContainer
+{
+	background-color: #afafaf;
+	color: black;
+	padding: 15px;
+	vertical-align: middle;
+	text-align:center;
+	overflow:auto;
+	font-family: monospace;
+}
+a.btn#export
+{
+	margin: 15px;
+}

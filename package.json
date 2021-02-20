@@ -1,0 +1,30 @@
+{
+	"name": "valveserverpicker",
+	"version": "0.1.0",
+	"description": "Ranked Matchmaking Server Config Generator for Source Engine games.",
+	"private": "true",
+	"scripts": {
+		"build": "webpack build --config webpack.config.js",
+		"start": "npm build",
+		"configtest": "webpack configtest --config webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jylescoad-ward/valveserverpicker.git"
+	},
+	"author": "",
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/jylescoad-ward/valveserverpicker/issues"
+	},
+	"homepage": "https://github.com/jylescoad-ward/valveserverpicker#readme",
+	"devDependencies": {
+		"axios": "^0.21.1",
+		"webpack": "^5.23.0",
+		"webpack-cli": "^4.5.0"
+	},
+	"dependencies": {
+		"jquery": "^3.5.1",
+		"tinytoolbox": "0.0.2"
+	}
+}
